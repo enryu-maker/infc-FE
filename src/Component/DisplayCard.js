@@ -16,13 +16,12 @@ export default function DisplayCard({
         <div
             style={{
                 display: "flex",
-                flexDirection: "column",
+                flexDirection:!isMobile ? "column":"row",
                 backgroundColor: COLORS.Primary1,
                 // justifyContent: "center",
                 alignItems: "center",
                 height: !isMobile ? 650 : "100vh",
                 width: !isMobile ? 550 : "100vw",
-                boxShadow: "1px 3px 1px #9E9E9E",
                 ...mainContainer
             }}
         >

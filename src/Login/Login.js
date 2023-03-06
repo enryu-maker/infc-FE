@@ -53,6 +53,9 @@ export default function Login() {
         />
         <TextButton
             label={"Login"}
+            buttonContainerStyle={{
+                backgroundColor: COLORS.Primary2,
+            }}
             onPress={()=>{
                 dispatch(Login_Function("suckk my dick"))
             }}
