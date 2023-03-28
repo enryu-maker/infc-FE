@@ -3,6 +3,9 @@ import { COLORS, SIZES, FONTS } from '../theme/Theme'
 export default function AddCard({
     name,
     icon,
+    id,
+    setShow1,
+    setShow2,
 }) {
   return (
     <button style={{
@@ -17,6 +20,10 @@ export default function AddCard({
         alignItems: "center",
         border:"none",
         boxShadow: "1px 3px 1px #9E9E9E",
+    }}
+    onClick={()=>{
+        id==1?setShow1(true):setShow2(true)
+        console.log(id)
     }}
     >
         <p style={{

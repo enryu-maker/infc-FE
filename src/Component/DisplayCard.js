@@ -112,7 +112,7 @@ export default function DisplayCard({
                                     borderRadius: SIZES.radius,
                                     marginBlock: 10,
                                     padding: 10,
-                                    // marginInline: 10,
+                                    marginTop: 35,
                                     border: "none",
                                     boxShadow: "1px 3px 1px #9E9E9E",
                                 }}
