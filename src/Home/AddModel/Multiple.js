@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import Header from '../../Component/Header';
 import useMediaQuery from '../../Component/useMediaQuery';
 import { COLORS, FONTS, SIZES } from '../../theme/Theme'
-import { RxCross1 } from "react-icons/rx";
+import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import DropDown from '../../Component/DropDown';
 import Fileupload from '../../Component/Fileupload';
 export default function MultipleModel({
@@ -69,7 +69,7 @@ export default function MultipleModel({
                         setIsOpen(false)
                     }}
                 >
-                    <RxCross1 size={32} color={COLORS.black} />
+                    <MdOutlineKeyboardArrowLeft size={36} color={COLORS.black} />
                 </button>
                 }
                 label={"Multiple"}

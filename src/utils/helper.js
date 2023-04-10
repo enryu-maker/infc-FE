@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-export const baseURL = 'https://api-nerdtech.herdhelp.com'
+export const baseURL = 'http://192.168.1.4:8000'
 let headers = {};
 const axiosIns = axios.create({
-    baseURL: 'https://api-nerdtech.herdhelp.com/',
+    baseURL: 'http://infc.server:8000',
     headers,
 });
 

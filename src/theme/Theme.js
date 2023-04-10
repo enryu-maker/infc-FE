@@ -33,7 +33,7 @@ export const SIZES = {
     h5: 12,
     body1: 30,
     body2: 22,
-    body3: 16,
+    body3: 19,
     body4: 14,
     body5: 12,
 
